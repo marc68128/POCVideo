@@ -11,9 +11,12 @@ namespace POCVideo
         {
             var t1 = FFmpeg.Cut("GOPR3145.MP4", "test.mp4", 30, 10);
             var t2 = FFmpeg.Cut("GOPR3145.MP4", "test2.mp4", 50, 10);
-            Task.WaitAll(t1, t2);
+            var t3 = FFmpeg.Cut("GOPR3145.MP4", "test0.mp4", 20, 10);
+            Task.WaitAll(t1, t2, t3);
 
-            Process.Start("copy", "test.mp4 /b + test2.mp4 /b test3.mp4 /b");
+            var task = FFmpeg.Concat("out.mp4", "test.mp4", "test2.mp4", "test0.mp4");
+
+            task.Wait();
             Console.WriteLine("END");
             Console.Read();
         }
