@@ -1,0 +1,7 @@
+c:\users\marc\documents\visual studio 2015\Projects\POCVideo\POCVideo\bin\Debug\POCVideo.exe.config
+c:\users\marc\documents\visual studio 2015\Projects\POCVideo\POCVideo\bin\Debug\POCVideo.exe
+c:\users\marc\documents\visual studio 2015\Projects\POCVideo\POCVideo\bin\Debug\POCVideo.pdb
+c:\users\marc\documents\visual studio 2015\Projects\POCVideo\POCVideo\obj\Debug\POCVideo.csprojResolveAssemblyReference.cache
+c:\users\marc\documents\visual studio 2015\Projects\POCVideo\POCVideo\obj\Debug\POCVideo.exe
+c:\users\marc\documents\visual studio 2015\Projects\POCVideo\POCVideo\obj\Debug\POCVideo.pdb
+c:\users\marc\documents\visual studio 2015\Projects\POCVideo\POCVideo\bin\Debug\ffmpeg.exe
