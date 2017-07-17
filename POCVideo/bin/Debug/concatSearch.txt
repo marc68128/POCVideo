@@ -1,0 +1,5 @@
+ffmpeg -i test.mp4 -i test2.mp4 -filter_complex "[0:v:0] [0:a:0] [1:v:0] [1:a:0] concat=n=2:v=1:a=1 [v] [a]" -map "[v]" -map "[a]" output.mp4
+
+For Concatenating 3 files:
+
+ffmpeg -i input1.mp4 -i input2.webm -i input3.mp4 -filter_complex "[0:v:0] [0:a:0] [1:v:0] [1:a:0] [2:v:0] [2:a:0] concat=n=3:v=1:a=1 [v] [a]" -map "[v]" -map "[a]" output.mp4
